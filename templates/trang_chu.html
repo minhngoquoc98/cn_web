@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <h1>Danh bạ toàn bộ các khoa</h1>
+    {% for item in danh_ba %}
+    <p>{{item.ten}}. &nbsp; <a href="{% url 'danhba_chi_tiet' item.id %}"> Xem chi tiết</a></p>
+    {%endfor%}
+</body>
+</html>

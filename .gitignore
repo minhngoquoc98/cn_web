@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/**.py[cod]
+**/**.sw[pyoc]
+
+# Local files
+db.sqlite3
+.env
+.idea/
+venv/
+
+# Media folder
+media/
+
+.vscode/
+# Git files html folder
+staticfiles/
+
+# mac file
+*\._*
+.DS_Store
